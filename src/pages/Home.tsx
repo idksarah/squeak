@@ -1,8 +1,5 @@
 import assembly from './../assets/assembly.png'
-import stepOne from './../assets/1.png'
-import bambu from './../assets/bambu.png'
-import printLegion from './../assets/print_legion.png'
-import { Navigate, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import './../App.css'
 import Topbar from '../components/Topbar'
 
