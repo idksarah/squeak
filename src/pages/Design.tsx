@@ -19,7 +19,6 @@ import step225 from '../assets/tut_22.5.png';
 import step22 from '../assets/tut_22.png';
 import step23 from '../assets/tut_23.png';
 import step24 from '../assets/tut_24.png';
-import step26 from '../assets/tut_26.png';
 import step27 from '../assets/tut_27.png';
 import step28 from '../assets/tut_28.png';
 import step29 from '../assets/tut_29.png';
@@ -27,7 +26,6 @@ import step295 from '../assets/tut_29.5.png';
 import step30 from '../assets/tut_30.png';
 import step31 from '../assets/tut_31.png';
 import step32 from '../assets/tut_32.png';
-import step33 from '../assets/tut_33.png';
 import step34 from '../assets/tut_34.png';
 import step35 from '../assets/tut_35.png';
 import step36 from '../assets/tut_36.png';
@@ -44,7 +42,7 @@ function Design() {
         const dot = event.currentTarget.querySelector(".dotHor");
         dot?.classList.add("hidden");
     }
-    function showP1(event: any) {
+    function showP1() {
       const part1 = document.querySelector('.part1');
       const part2 = document.querySelector('.part2');
       if (part1 && part2) {
@@ -52,7 +50,7 @@ function Design() {
         part2.classList.add('hidden');
       }
     }
-    function showP2(event: any) {
+    function showP2() {
       const part1 = document.querySelector('.part1');
       const part2 = document.querySelector('.part2');
       if (part1 && part2) {
