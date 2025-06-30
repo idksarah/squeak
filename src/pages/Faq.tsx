@@ -9,14 +9,13 @@ function Faq() {
         <Topbar/>
         <div className="faqContent">
           <p className="h1">faq</p>
-          <div className="is this free?">
-            <Yapathon topShit="i don't care" bottomBitch="fuck"/>
+          <div className="">
+            <Yapathon topShit="does this have any prerequisites?" bottomBitch="no. additionally, onshape has extensive documentation, so this is an approachable project even for someone who hasn't tried cad before"/>
+            <Yapathon topShit="do i need to use hackatime to track my time?" bottomBitch="yes. you must log at least 3 hours on hackatime to receive your mouse parts."/>
+            <Yapathon topShit="how will i get this printed?" bottomBitch="find someone willing to print (#printing-legion or check the site)"/>
+            <Yapathon topShit="when does this end?" bottomBitch="deciding "/>
             <Yapathon topShit="will hack club cover shipping?" bottomBitch="yes"/>
-            <Yapathon topShit="how long does this run?" bottomBitch="yes"/>
-            <Yapathon topShit="will hack club cover shipping?" bottomBitch="yes"/>
-            <Yapathon topShit="will hack club cover shipping?" bottomBitch="yes"/>
-            <Yapathon topShit="will hack club cover shipping?" bottomBitch="yes"/>
-            <Yapathon topShit="will hack club cover shipping?" bottomBitch="yes"/>
+            <Yapathon topShit="i have more questions!" bottomBitch="ask in #squeak"/>
           </div>
         </div>
       </div>

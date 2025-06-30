@@ -35,13 +35,17 @@ p {
   height: fit-content;
 }
 
-.dot {
+.dot, .dotHor {
   height: 10px;
   width: 10px;
   background-color: #6C9A56;
   border-radius: 50%;
   display: inline-block;
-  margin-top: -5px;
+}
+
+.dotHor {
+  align-self: center;
+  margin-right: 1em;
 }
 
 .topbarElement {
@@ -129,7 +133,11 @@ p {
 }
 
 .tutImg{
-  height: 25em;
+  height: 20em;
+}
+
+.tutImg1{
+  height: 12.5em;
 }
 
 .hor {
