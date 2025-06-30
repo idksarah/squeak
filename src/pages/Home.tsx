@@ -2,9 +2,16 @@ import assembly from './../assets/assembly.png'
 import { useNavigate } from 'react-router-dom'
 import './../App.css'
 import Topbar from '../components/Topbar'
+import dore from '../assets/dore.png';
+import ssqueak from '../assets/squeak.mp3';
 
 function Home() {
     const navigate = useNavigate();
+    const squeak = new Audio(ssqueak);
+
+    const startSqueak = () => {
+      squeak.play()
+    }
     
     function goDesign(){
         navigate("/design");
@@ -28,14 +35,15 @@ function Home() {
         </div>
         <div className="column">
           <p className="h2">how do i get started?</p>
-          <p className="bg1 grow">join <span className="link">#squeak</span> on the <span className="link">hack club slack</span></p>
+          <p className="bg1 grow">join <a href="https://hackclub.slack.com/archives/C094458MVMX" className="link">#squeak</a> on the <a href="https://join.slack.com/t/hackclub/shared_invite/zt-38r4vt46o-bLqCqTXACfkJ2V8BBkEASw" className="link">hack club slack</a></p>
           <p className="bg1 grow">check out the <span className="link" onClick={goDesign}>design overview</span></p>
         </div>
       </div>
     </div>
       <div className="footer">
         <div className="innerFooter">
-          <p>made with love by @idksarah</p>
+          <p>made with &lt;3 by @idksarah</p>
+          <img className="dore" src={dore} onClick={startSqueak}></img>
         </div>
       </div>
     </div>

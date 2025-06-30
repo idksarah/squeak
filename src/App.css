@@ -1,3 +1,7 @@
+html {
+  cursor: url("./assets/cursor.png"), auto;
+}
+
 .backdrop {
   background-color: white;
   border-radius: 2em;
@@ -89,11 +93,14 @@ p {
 
 .pointer {
   cursor: pointer;
+  cursor: url("./assets/cursor1.png"), auto;
 }
 
 .link {
   cursor: pointer;
   color:#6C9A56;
+  text-decoration: none;
+  cursor: url("./assets/cursor1.png"), auto;
 }
 
 .footer {
@@ -110,6 +117,8 @@ p {
   width: fit-content;
   padding: 0em 2em 0em 2em;
   border-radius: 2em;
+  display: flex;
+  gap: 1em;
 }
 
 .designHeader {
@@ -156,6 +165,15 @@ p {
   margin-top: -.25em;
 }
 
-a {
+a, .green {
   color: #6C9A56;
+}
+
+.dore {
+  height: 4em;
+  cursor: url("./assets/cursor1.png"), auto;
+}
+
+.dore:hover {
+  height: 5em;
 }

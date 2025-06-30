@@ -65,7 +65,7 @@ function Design() {
       <Topbar/>
       <div className="mainDesign">
         <div className="designHeader">
-          <p className='h2'>design your case</p>
+          <p className='h2 '>design your case</p>
           <div className="designOptions">
             <div className="designP1 hor pointer" onMouseEnter={removeHidden} onMouseLeave={addHidden} onClick={showP1}>
               <div className="dotHor hidden"></div>
