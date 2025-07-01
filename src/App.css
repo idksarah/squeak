@@ -13,6 +13,7 @@ html {
   width: fit-content;
   max-width: 70em;
   min-height: 30em;
+  margin: 2em;
 }
 
 p {
@@ -109,7 +110,7 @@ p {
   width:fit-content;
   padding: 1em 4em 1em 4em;
   border-radius: 1em;
-  margin-top: -2.5em;
+  margin-top: -4em;
 }
 
 .innerFooter {
@@ -157,7 +158,6 @@ p {
   font-size: 17px;
   border: solid;
   border-color: #6C9A56;
-  width: 105%;
 }
 
 .i {
@@ -172,10 +172,6 @@ a, .green {
 .dore {
   height: 4em;
   cursor: url("./assets/cursor1.png"), auto;
-}
-
-.dore:hover {
-  height: 5em;
 }
 
 /* fucking mobile users */
@@ -233,7 +229,7 @@ a, .green {
   }
 
   .designContent, .requirementsContent, .faqContent {
-    max-height: 20em;
+    max-height: 38em;
   }
 
   .footer {
@@ -289,9 +285,6 @@ a, .green {
 }
 
 @media (max-width: 480px) {
-  #home {
-    margin-top: 20em;
-  }
   .backdrop {
     max-width: 95vw;
     padding: 0.75em;
@@ -318,7 +311,7 @@ a, .green {
   }
 
   .designContent, .requirementsContent, .faqContent {
-    height: 25em;
+    height: 28em;
   }
 
   .tutImg {
@@ -337,10 +330,6 @@ a, .green {
 
   .dore {
     height: 2.5em;
-  }
-
-  .dore:hover {
-    height: 3em;
   }
 }
 
