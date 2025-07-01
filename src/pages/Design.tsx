@@ -69,11 +69,11 @@ function Design() {
           <div className="designOptions">
             <div className="designP1 hor pointer" onMouseEnter={removeHidden} onMouseLeave={addHidden} onClick={showP1}>
               <div className="dotHor hidden"></div>
-              <p >part 1: design the base</p>
+              <p className="green">part 1: design the base</p>
             </div>
             <div className='designP2 hor pointer' onMouseEnter={removeHidden} onMouseLeave={addHidden} onClick={showP2}>
               <div className="dotHor hidden"></div>
-              <p className="">part 2: design the top</p>
+              <p className="green">part 2: design the top</p>
             </div>
           </div>
         </div>

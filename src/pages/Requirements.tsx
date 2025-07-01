@@ -11,7 +11,9 @@ function Requirements() {
           <p className="h1">requirements</p>
           <Yapathon topShit="1. spend at least three hours designing your mouse" bottomBitch="install the onshape wakatime extension"/>
           <Yapathon topShit="2. be unique" bottomBitch="cannot be a direct copy of the tutorial or bambu case"/>
-          <Yapathon topShit='3. have your project files on github' bottomBitch="create a repo and upload your project files at github.com"/>
+          <Yapathon topShit='3. have your project on github' bottomBitch="create a repo and upload your project files at github.com"/>
+          <Yapathon topShit='4. have a printer! (human or machine)' bottomBitch="you can either print your case or find someone on printing legion to print for you. you'll receive a $10 grant to pay for the shipping label"/>
+          <Yapathon topShit='5. be in high school' bottomBitch="^^"/>
         </div>
       </div>
     </>

@@ -3,3 +3,18 @@
     gap: 4em;
     padding-bottom: .5em;
 }
+
+/* Mobile responsive topbar */
+@media (max-width: 768px) {
+    .topbar {
+        gap: 2em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .topbar {
+        gap: 1em;
+    }
+}
