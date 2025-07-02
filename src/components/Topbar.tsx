@@ -42,7 +42,7 @@ function Topbar() {
                 <span className="dot hidden"></span>
             </div>
             <div className="topbarElement" onMouseEnter={removeHidden} onMouseLeave={addHidden}>
-                <p className="pointer">submit</p>
+                <a href="https://forms.hackclub.com/t/x5qaMsGftKus">submit!</a>
                 <span className="dot hidden"></span>
             </div>
         </div>
