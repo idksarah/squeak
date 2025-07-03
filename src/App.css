@@ -176,6 +176,11 @@ a, .green {
 
 a {
   text-decoration: none;
+  cursor: url("./assets/cursor1.png"), auto;
+}
+
+.iyapathon .h2 {
+  font-style: italic;
 }
 
 /* fucking mobile users */

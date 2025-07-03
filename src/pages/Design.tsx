@@ -92,7 +92,7 @@ function Design() {
             </div>
 
             <div>
-              <p>3. make a new onshape document (<a href="https://cad.onshape.com/documents" target="_blank">Open Onshape</a>).</p>
+              <p>3. make a new onshape document (<a href="https://cad.onshape.com/documents" target="_blank">open onshape</a>).</p>
               <div className='hor'>
   <ul>  
                 <li>name your part assembly tab "base".</li>
@@ -259,7 +259,7 @@ function Design() {
       <li>in your smaller rectangle, create a new point at the midpoint.</li>
       <li>make sure that it is <b>coincident</b> with your construction line.</li>
       <li>dimension your rectangle to be <b>52.45 x 18</b>.</li>
-      <li>extrude with the <b>remove</b> operation by <b>28.9</b>.</li>
+      <li>extrude with the <b>remove</b> operation by <b>31</b>.</li>
     </ul>
     <div>
       <img className="tutImg1" src={step29}></img>
