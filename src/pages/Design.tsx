@@ -46,6 +46,7 @@ import tut_39 from '../assets/tut_39.png';
 import tut_40 from '../assets/tut_40.png';
 import tut_41 from '../assets/tut_41.png';
 import tut_42 from '../assets/tut_42.png';
+import tut_43 from '../assets/tut_43.png';
 
 
 
@@ -174,8 +175,10 @@ function Design() {
       <p> measurements: </p>
       <p>22.259mm, 1.5mm, 60.462mm, 1.5mm., 2mm, R5.</p>
       <p> extrude the outer areas by 1.5mm. extrude the walls by 3.4mm. extrude the corners by 4.6mm</p>
+      <p>fig. 1 is just the sketch you're making. fig. 2 also shows what your context should look like</p>
       <div className="hor">
         <img src={tut_6} className="tutImg"></img>
+        <img src={tut_43} className="tutImg"></img>
       </div>
     </div>
 
