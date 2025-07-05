@@ -10,7 +10,6 @@ import tut_3 from '../assets/tut_3.png';
 import tut_4 from '../assets/tut_4.png';
 import tut_5 from '../assets/tut_5.png';
 import tut_6 from '../assets/tut_6.png';
-import tut_7 from '../assets/tut_7.png';
 import tut_75 from '../assets/tut_7.5.png';
 import tut_8 from '../assets/tut_8.png';
 import tut_9 from '../assets/tut_9.png';
@@ -25,7 +24,6 @@ import tut_16 from '../assets/tut_16.png';
 import tut_17 from '../assets/tut_17.png';
 import tut_18 from '../assets/tut_18.png';
 import tut_19 from '../assets/tut_19.png';
-import tut_20 from '../assets/tut_20.png';
 import tut_21 from '../assets/tut_21.png';
 import tut_22 from '../assets/tut_22.png';
 import tut_23 from '../assets/tut_23.png';
@@ -105,6 +103,8 @@ function Design() {
 
   <div className="part1">
     <p>let's create the base of your case!</p>
+    <img src={base} className='tutImg'></img>
+    <hr></hr>
 
     <div>
       <p>1. onshape wakatime extension:</p>
@@ -252,6 +252,8 @@ function Design() {
 
   <div className="part2 hidden">
     <p>let's create the top of your case!</p>
+    <img src={top} className='tutImg'></img>
+    <hr></hr>
     <p>quick note: this is where most of your mouese customization (idk the word lol) happens! feel free to adjust any of the measurements to fit your design, or go off guide and do your own thing :3</p>
     <div>
       <p>1. back: </p>
