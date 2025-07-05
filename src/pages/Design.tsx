@@ -134,9 +134,9 @@ function Design() {
         <li>select the extrude tool. select all faces excluding the two rectangular holes you made. extrude by 1.1 mm</li>
       </ul>
       <p>measurements (these can be rounded a little lol):</p>
-      <p>fig. 1: 22.259mm, 60.462mm, R1.671, 130 degrees, 35mm, 110.645mm, R6</p>
-      <p>fig. 2: 4.216mm, R1.038mm, 8.485mm, 3.347mm, R3.891mm, 13.477mm, 5mm, R3.891</p>
-      <p>fig. 3: 22.259mm,  44.515mm, 54.672mm</p>
+      <p>fig. 1: 25.259mm, 60.462mm, R1.671, 130 degrees, 35mm, 110.645mm, R6</p>
+      <p>fig. 2: 4.216mm, R1.038mm, 8.485mm, 3.347mm, R3.7mm, 13.477mm, 5mm, R3.891, 7.781</p>
+      <p>fig. 3: 44.515mm, 54.672mm</p>
     <div className="hor wrap">
         <img src={tut_1} className='tutImg'></img>
         <img src={tut_2} className='tutImg'></img>
