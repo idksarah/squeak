@@ -10,10 +10,11 @@ function Faq() {
         <div className="faqContent">
           <p className="h1">faq</p>
           <div className="">
-            <IYapathon topShit="does this have any prerequisites?" bottomBitch="no. plus, onshape has extensive documentation, so this is an approachable project for someone who hasn't tried cad before"/>
+            <IYapathon topShit="does this have any prerequisites?" bottomBitch="no. plus, onshape has extensive documentation and a good community, so this is an approachable project for someone who hasn't tried cad before"/>
             <IYapathon topShit="do i need to use hackatime to track my time?" bottomBitch="yes. you must log at least 3 hours on the onshape wakatime extension to receive your mouse parts."/>
+            <IYapathon topShit='how can i make my mouse unique?' bottomBitch='lots of ways! eg, include pocketing, make it ergonomic, or use  a completely different shape. search up mice and get inspo!'></IYapathon>
             <IYapathon topShit="how will i get this printed?" bottomBitch="find someone willing to print (#printing-legion or check the site)"/>
-            <IYapathon topShit="can i import parts?" bottomBitch='yes, but only parts other than the case. eg, the pcb, sensor, etc'/>
+            <IYapathon topShit="can i import parts?" bottomBitch='yes!'/>
             <IYapathon topShit="when does this end?" bottomBitch="7/10/2025 "/>
             <IYapathon topShit="will hack club cover shipping?" bottomBitch="yes"/>
             <IYapathon topShit="what da mouse named?" bottomBitch="dore"/>

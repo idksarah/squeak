@@ -30,7 +30,7 @@ function Home() {
           </div>
           <div className="column">
             <p className="h2">what's this?</p>
-            <p>squeak is a ysws running from 7/3/2025 to 7/10/2025 where you can design your own mouse case and receive the physical case and parts (provided by bambu's mouse kit!)</p>
+            <p>squeak is program running from 7/4/2025 to 7/11/2025 where you can design your own mouse case and receive the physical case and parts (provided by bambu's mouse kit and hack club's printing legion!)</p>
           </div>
         </div>
         <div className="column">

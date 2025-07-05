@@ -1,39 +1,57 @@
 import './../App.css'
 import Topbar from '../components/Topbar'
 
-import step2 from '../assets/tut_2.png';
-import step5 from '../assets/tut_5.png';
-import step6 from '../assets/tut_6.png';
-import step9 from '../assets/tut_9.png';
-import step10 from '../assets/tut_10.png';
-import step11 from '../assets/tut_11.png';
-import step12 from '../assets/tut_12.png';
-import step14 from '../assets/tut_14.png';
-import step16 from '../assets/tut_16.png';
-import step17 from '../assets/tut_17.png';
-import step18 from '../assets/tut_18.png';
-import step19 from '../assets/tut_19.png';
-import step20 from '../assets/tut_20.png'
-import step21 from '../assets/tut_21.png'
-import step225 from '../assets/tut_22.5.png';
-import step22 from '../assets/tut_22.png';
-import step23 from '../assets/tut_23.png';
-import step24 from '../assets/tut_24.png';
-import step27 from '../assets/tut_27.png';
-import step28 from '../assets/tut_28.png';
-import step29 from '../assets/tut_29.png';
-import step295 from '../assets/tut_29.5.png';
-import step30 from '../assets/tut_30.png';
-import step31 from '../assets/tut_31.png';
-import step32 from '../assets/tut_32.png';
-import step34 from '../assets/tut_34.png';
-import step35 from '../assets/tut_35.png';
-import step36 from '../assets/tut_36.png';
-import step37 from '../assets/tut_37.png';
+import base from '../assets/base.png';
+import top from '../assets/top.png';
+
+import tut_1 from '../assets/tut_1.png';
+import tut_2 from '../assets/tut_2.png';
+import tut_3 from '../assets/tut_3.png';
+import tut_4 from '../assets/tut_4.png';
+import tut_5 from '../assets/tut_5.png';
+import tut_6 from '../assets/tut_6.png';
+import tut_7 from '../assets/tut_7.png';
+import tut_75 from '../assets/tut_7.5.png';
+import tut_8 from '../assets/tut_8.png';
+import tut_9 from '../assets/tut_9.png';
+import tut_10 from '../assets/tut_10.png';
+import tut_11 from '../assets/tut_11.png';
+import tut_12 from '../assets/tut_12.png';
+import tut_125 from '../assets/tut_12.5.png';
+import tut_13 from '../assets/tut_13.png';
+import tut_14 from '../assets/tut_14.png';
+import tut_15 from '../assets/tut_15.png';
+import tut_16 from '../assets/tut_16.png';
+import tut_17 from '../assets/tut_17.png';
+import tut_18 from '../assets/tut_18.png';
+import tut_19 from '../assets/tut_19.png';
+import tut_20 from '../assets/tut_20.png';
+import tut_21 from '../assets/tut_21.png';
+import tut_22 from '../assets/tut_22.png';
+import tut_23 from '../assets/tut_23.png';
+import tut_24 from '../assets/tut_24.png';
+import tut_25 from '../assets/tut_25.png';
+import tut_26 from '../assets/tut_26.png';
+import tut_27 from '../assets/tut_27.png';
+import tut_28 from '../assets/tut_28.png';
+import tut_29 from '../assets/tut_29.png';
+import tut_30 from '../assets/tut_30.png';
+import tut_31 from '../assets/tut_31.png';
+import tut_32 from '../assets/tut_32.png';
+import tut_33 from '../assets/tut_33.png';
+import tut_34 from '../assets/tut_34.png';
+import tut_35 from '../assets/tut_35.png';
+import tut_36 from '../assets/tut_36.png';
+import tut_37 from '../assets/tut_37.png';
+import tut_38 from '../assets/tut_38.png';
+import tut_39 from '../assets/tut_39.png';
+import tut_40 from '../assets/tut_40.png';
+import tut_41 from '../assets/tut_41.png';
+import tut_42 from '../assets/tut_42.png';
+
 
 
 function Design() {
-  // const designP1 = useQuery 
     function removeHidden(event:any){
         const dot = event.currentTarget.querySelector(".dotHor");
         dot?.classList.remove("hidden");
@@ -78,272 +96,261 @@ function Design() {
           </div>
         </div>
         <div className="designContent">
-          <div className="part1">
-            <p>let's create the base of your case!</p>
-            <div>
-              <p>1. set up the onshape wakatime extension.</p>
-              <ul>
-                <li><a href="https://chromewebstore.google.com/detail/onshape-wakatime/kieglbolocchhhcblnhaiodbpgkjcecg" target="_blank">download the extension</a></li>
-                <li>grab your api key from <a href="https://waka.hackclub.com/summary?interval=month" target="_blank">hackatime v1</a> by clicking your user icon and "Show API Key".</li>
-              </ul>
-            </div>
-            <div>
-              <p>2. take a look at the mouse we're basing our design on: <a href="https://cad.onshape.com/documents/eedf52ffde47e82ad65cd0c5/w/7f19c612d00a065ddedee508/e/daa3fc3a2b07412fa74b98df" target="_blank">view mouse</a></p>
-            </div>
+  <p>
+    if you're confused, feel free to reference my{' '}
+    <a href="https://cad.onshape.com/documents/6f605beaa2eeee446b12f67b/w/d1628f56d3fb9ea702c14ede/e/6a3834916e84bd1643e5fd46" target="_blank" rel="noopener noreferrer">cad</a> or ask any questions in #squeak :3
+  </p>
+  <p>the only parts of this guide i highly highly suggest following are steps 1-4 of part 1, since they relate to the fit of the inner components. the rest is aesthetic.</p>
+  <hr />
 
-            <div>
-              <p>3. make a new onshape document (<a href="https://cad.onshape.com/documents" target="_blank">open onshape</a>).</p>
-              <div className='hor'>
-  <ul>  
-                <li>name your part assembly tab "base".</li>
-                <li>set your document units to mm.</li>
-                <li>make a rectangle and fillet its edges by 5mm.</li>
-                <li>draw construction lines down the horizontal and vertical midpoints.</li>
-                <li>dimension the main rectangle to be <b>60.42mm x 110.645mm</b>.</li>
-                <li>make 2 <b>center rectangles</b> (not corner rectangles) and fillet them by 1mm.</li>
-                <li>rectangle 1: <b>7.787 x 13.477mm</b>. position it <b>61.411mm</b> from the bottom of the large rectangle and <b>6mm</b> from the center line (closest side).</li>
-                <li>rectangle 2: <b>8.485 x 4.216mm</b>. center it <b>14.787mm</b> from the center of rectangle 1 and <b>3.347mm</b> from the center of rectangle 2.</li>
-                <li>finish the sketch and extrude by <b>1.1mm</b>.</li>
-              </ul>
-              <img className="tutImg" src={step2}></img>
-              <img className='tutImg' src={step5}></img>
-              </div>
-              
-            </div>
-            <div>
-              <p>4. make a new sketch using the extrude as the face.</p>
-              <div className='hor'>
-                <ul>
-                  <li>use the "use" tool to trace the entire area.</li>
-                  <li>create 2 construction lines down the midpoint of both rectangles.</li>
-                  <li>create a new point at their intersection.</li>
-                  <li>create 2 center rectangles around the center of both earlier rectangles (total 4 new rectangles).</li>
-                  <li>copy the diagram.</li>
-                  <li>measurements if hard to read: <b>1.359, 0.76, 16, 0.25</b>.</li>
-                  <li>finish the sketch and set it as visible.</li>
-                  <li>extrude by <b>1.5mm</b>.</li>
-                  <li>extrude the walls by <b>2.8mm</b>.</li>
-                  <li>extrude the other by <b>2.5mm</b>.</li>
-                  <li>now you have your sensor and on/off switch walls.</li>
-                </ul>
-              <img className='tutImg' src={step6}></img>
-              </div>
-            </div>
+  <div className="part1">
+    <p>let's create the base of your case!</p>
 
-            <div>
-              <p>5. download the files from <code>onshape_imports/</code> in this <a href="https://github.com/idksarah/squeak">repo</a></p>
-            </div>
-
-            <div>
-                <p>6. create a new assembly using the tab manager at the bottom.</p>
-              <div className="hor">
-                <ul>
-                  <li>insert your sensor.</li>
-                  <li>insert the base into the assembly.</li>
-                  <li>add a fastened mate to the bottom of your sensor, placing the mate in the center.</li>
-                  <li>you may need to rotate the part to orient it correctly.</li>
-                </ul>
-                <img className="tutImg1" src={step9}></img>
-                <img className="tutImg1" src={step10}></img>
-              </div>
-            </div>
-
-            <div>
-              <p>7. import the pcb file in Onshape.</p>
-              <div className="hor">
-                <ul>
-                  <li>insert the pcb into your assembly.</li>
-                  <li>fasten the bottom of your pcb to the center of the circle on the sensor.</li>
-                </ul>
-                <img className='tutImg1' src={step11}></img>
-                <img className="tutImg1" src={step12}></img>
-              </div>
-            </div>
-
-            <div>
-              <p>8. create the battery holder.</p>
-              <div className="hor">
-                <ul>
-                  <li>right-click the base and edit it in-context.</li>
-                  <li>use the case and pcb lines as reference.</li>
-                  <li>make L-shaped rectangles around the corners of the pcb.</li>
-                  <li>outer outlines: <b>1.5mm</b> away from the pcb.</li>
-                  <li>inner outlines: <b>1mm</b> away from the pcb.</li>
-                  <li>finish the sketch.</li>
-                  <li>extrude the inner area by <b>1.2mm</b> and the outer area by <b>2mm</b>.</li>
-                  <li>adjust offsets so the new parts touch the board correctly.</li>
-                  <li>ensure you're using the <b>add</b> operation with only one part.</li>
-                </ul>
-                <img className="tutImg" src={step14}></img>
-                <img className="tutImg" src={step16}></img>
-              </div>
-            </div>
-
-            <div>
-              <p>9. make a new sketch using the base. copy this sketch.</p>
-              <div className="hor">
-                <ul>
-                  <li>measurements if hard to read:</li>
-                  <li><b>3.817, 2.805, 2.526, 1.359, 3.95, 32.227, 52.521, 14.8, 22.75, 47.227</b>.</li>
-                </ul>
-                  <img className="tutImg" src={step18}></img>
-                  <img className="tutImg" src={step17}></img>
-              </div>
-            </div>
-
-            <div>
-              <p>10. extrude the tall sections by <b>7mm</b> and the short sections by <b>3.5mm</b>.</p>
-            </div>
-
-            <div>
-              <p>11. start a sketch on the horizontal face of the tall section.</p>
-              <div className="hor">
-                <ul>
-                  <li>make the sketch as shown in the diagram.</li>
-                  <li>finish the sketch.</li>
-                  <li>extrude the sketch by <b>25mm</b> with an offset of <b>10mm</b>.</li>
-                </ul>
-                <img className="tutImg1" src={step19}></img>
-                <img className="tutImg1" src={step20}></img>
-              </div>
-            </div>
-
-            <div>
-              <p>12. make a new sketch on the bottom of the base.</p>
-              <div className="hor">
-                <ul>
-                  <li>use the walls from the top of the battery holder as reference.</li>
-                  <li>extrude the bottom with the <b>remove</b> operation.</li>
-                  <li>extrude sections by <b>2.6mm</b>.</li>
-                  <li>create a triangular divot where the battery case can slide out.</li>
-                </ul>
-                <div>
-                  <img className="tutImg1" src={step21}></img>
-                  <img className="tutImg1" src={step225}></img>
-                  <img className="tutImg1" src={step22}></img>
-                  <img className="tutImg1" src={step23}></img>
-                  <img className="tutImg1" src={step24}></img>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <p>13. import the wheel. insert it into the assembly and fasten it.</p>
-              <img className="tutImg1" src={step295}></img>
-            </div>
-          </div>
-          <div className="part2 hidden">
-            <p>let's create the top of your case!</p>
-            <div>
-              <div>
-  <p>1. create the back</p>
-  <div className='hor'>
-    <ul>
-      <li>create a new part.</li>
-      <li>create a new sketch and create a rectangle that is <b>50.462 x 51</b>.</li>
-      <li>extrude by <b>25</b>.</li>
-      <li>insert into the assembly.</li>
-      <li>fasten its center edge to the base's center edge.</li>
-      <li>create a new sketch on the side with a curve.</li>
-      <li>extrude with the <b>remove</b> operation.</li>
-    </ul>
-    <img className="tutImg1" src={step27}></img>
-    <img className="tutImg1" src={step28}></img>
-  </div>
-
-  <p>2. on the front edge:</p>
-  <div className='hor'>
-    <ul>
-      <li>create a new rectangle.</li>
-      <li>draw a perpendicular construction line from the midpoint of the top of the larger rectangle to the midpoint of the bottom of the larger rectangle.</li>
-      <li>in your smaller rectangle, create a new point at the midpoint.</li>
-      <li>make sure that it is <b>coincident</b> with your construction line.</li>
-      <li>dimension your rectangle to be <b>52.45 x 18</b>.</li>
-      <li>extrude with the <b>remove</b> operation by <b>31</b>.</li>
-    </ul>
     <div>
-      <img className="tutImg1" src={step29}></img>
-      <img className="tutImg1" src={step30}></img>
-      <img className="tutImg1" src={step31}></img>
-
+      <p>1. onshape wakatime extension:</p>
+      <ul>
+        <li>
+          <a href="https://chromewebstore.google.com/detail/onshape-wakatime/kieglbolocchhhcblnhaiodbpgkjcecg" target="_blank" rel="noopener noreferrer">
+            download the extension
+          </a>
+        </li>
+        <li>
+          grab your api key from{' '}
+          <a href="https://waka.hackclub.com/summary?interval=month" target="_blank" rel="noopener noreferrer">
+            hackatime v1
+          </a>{' '}
+          by clicking your user icon and "Show API Key".
+        </li>
+      </ul>
     </div>
 
+    <div>
+      <p>2. sensor and switch holes:</p>
+        
+      <p>make a new <a href="https://cad.onshape.com/documents" target="_blank" rel="noopener noreferrer">onshape document</a>. set your document units to mm.</p>
+      <ul>
+        <li>name your part assembly tab "base".</li>
+        <li>make a new sketch on the "top" plane. copy fig 1.</li>
+        <li>select the extrude tool. select all faces excluding the two rectangular holes you made. extrude by 1.1 mm</li>
+      </ul>
+      <p>measurements (these can be rounded a little lol):</p>
+      <p>fig. 1: 22.259mm, 60.462mm, R1.671, 130 degrees, 35mm, 110.645mm, R6</p>
+      <p>fig. 2: 4.216mm, R1.038mm, 8.485mm, 3.347mm, R3.891mm, 13.477mm, 5mm, R3.891</p>
+      <p>fig. 3: 22.259mm,  44.515mm, 54.672mm</p>
+    <div className="hor wrap">
+        <img src={tut_1} className='tutImg'></img>
+        <img src={tut_2} className='tutImg'></img>
+        <img src={tut_3} className='tutImg'></img>
+      </div>
+    </div>
+
+    <div>
+      <p>3. sensor and switch walls:</p>
+      <p>measurements: </p>
+      <p>fig. 1: 1.359mm, 16mm, .75mm, .25mm</p>
+      <p>fig. 2: 2.732mm</p>
+      <p> extrude the outer edges by 2.8mm. extrude the horizontal rectangle by .75mm</p>
+    <div className="hor wrap">
+        <img src={tut_4} className='tutImg'></img>
+        <img src={tut_5} className='tutImg'></img>
+        <img src={tut_35} className='tutImg'></img>
+      </div>
+    </div>
+
+    <div>
+      <p>3. importing parts: start a new assembly. import the sensor, pcb, and wheel from <a href="https://github.com/idksarah/squeak/tree/main/onshape_imports" target="_blank" rel="noopener noreferrer">here</a>. insert them. </p>
+      <p>you may need to rotate the sensor, pcb, and wheel 180 degrees so that they align with the rest of the assembly. fasten the center of the bottom of the sensor to the center of the top of the vertical rectangle. fasten the center of the bottom of the pcb to the center of the circle on the center.</p>
+      <p> yipppee!! now, right click on your base and edit in context.</p>
+      <div className="hor wrap">
+        <img src={tut_22} className="tutImg1"></img>
+        <img src={tut_21} className="tutImg1"></img>
+        <img src={tut_23} className="tutImg1"></img>
+        <img src={tut_24} className="tutImg1"></img>
+        <img src={tut_25} className="tutImg1"></img>
+      </div>
+    </div>
+
+    <div>
+      <p> measurements: </p>
+      <p>22.259mm, 1.5mm, 60.462mm, 1.5mm., 2mm, R5.</p>
+      <p> extrude the outer areas by 1.5mm. extrude the walls by 3.4mm. extrude the corners by 4.6mm</p>
+      <div className="hor">
+        <img src={tut_6} className="tutImg"></img>
+      </div>
+    </div>
+
+    <div>
+      <p>4. battery holder: </p>
+      <p>make this L shape. its placement doesn't really matter, but keep it close to your pcb (ie &lt; 0.5mm distance) since the wires are short. draw fig. 2 at the top and bottom of your L. i recommend using the mirror tool for this. (draw one side and then mirror it.) </p>
+      <p>extrude the long parts by 3.15. extrude the c-shaped sections by 7mm.</p>
+    <div className="hor wrap">
+        <img src={tut_8} className="tutImg"></img>
+        <img src={tut_9} className="tutImg1"></img>
+        <img src={tut_36} className="tutImg"></img>
+        <img src={tut_37} className="tutImg"></img>
+      </div>
+       <p>remove the rest.</p>
+        <img src={tut_11} className="tutImg"></img>
+    </div>
+
+    <div>
+      <p>view from the back side. start a new sketch using the edge of the battery holder as its face. extrude by 25mm with a 15mm offset.</p>
+    <div className="hor">
+        <img src={tut_14} className="tutImg"></img>
+      </div>
+    </div>
+
+    <div>
+      <p>5. battery tab: </p>
+      <p>start a new sketch in the empty space. make a small arc. extrude the rest by 2mm.</p>
+      <p> start a new sketch on the bottom of your new part. flip to the top of your mouse and use these sections. remove by 1mm</p>
+      <div className="hor" style={{flexWrap: 'wrap'}}>
+        <img src={tut_75} className="tutImg"></img>
+        <img src={tut_15} className="tutImg"></img>
+        <img src={tut_38} className="tutImg"></img>
+        <img src={tut_39} className="tutImg"></img>
+      </div>
+    </div>
+
+    <div>
+      <p>your base should look like this now:</p>
+      <img src={tut_10} className='tutImg'></img>
+    </div>
+
+    <div>
+      <p>6. walls: </p>
+      <p>align the left one with the edge of your battery holder. fillet the top by 1mm</p>
+      <p>measurements: 40mm, R3</p>
+      <div className="hor wrap">
+        <img src={tut_12} className="tutImg"/>
+        <img src={tut_125} className="tutImg"></img>
+      </div>
+    </div>
+
+    <div>
+      <p>view from the right side. draw what you would like your base's side profile to be. remove the extra.</p>
+      <div className="hor">
+        <img src={tut_13} className="tutImg"></img>
+      </div>
+    </div>
+
+    <div>
+      <p>7. screw hole: </p>
+      <p>start a new sketch on the bottom of your mouse.</p>
+      <p>measurements: bottom diameter = 4.2mm, inner diameter = 1.85mm</p>
+      <p>remove outer circle by 1.2mm. remove inner circle all the way.</p>
+      <div className="hor wrap">
+        <img src={tut_16} className="tutImg"></img>
+        <img src={tut_40} className="tutImg"></img>
+      </div>
+    </div>
+
+    <div>
+      <p>yayayay!!! base of ur mouse done. halfway there soldier!</p>
+    </div>
   </div>
 
-  <p>3.</p>
-  <div className='hor'>
-    <ul>
-      <li>create a new sketch using the <b>back wall</b> as its face.</li>
-      <li>using the walls of the battery holder, make sure that these walls are at least <b>1mm away</b>.</li>
-      <li>extrude by <b>10.6mm</b>.</li>
-    </ul>
-  </div>
+  <div className="part2 hidden">
+    <p>let's create the top of your case!</p>
+    <p>quick note: this is where most of your mouese customization (idk the word lol) happens! feel free to adjust any of the measurements to fit your design, or go off guide and do your own thing :3</p>
+    <div>
+      <p>1. back: </p>
+      <p> make a new part studio. make a new sketch on the "front" plane (perpendicular to what you've previously been working on). this is gonna be the curvy top part of your mouse. make a new sketch on the "front" plane. draw a line for the side profile of your mouse. use the sweep operation.</p>
+    <div className="hor wrap">
+      <img src={tut_17} className='tutImg1'></img>
+      <img src={tut_18} className='tutImg1'></img>
+      <img src={tut_19} className='tutImg1'></img>
+    </div>
+    </div>
 
-  <p>4.</p>
-  <ul>
-    <li>select the bottom.</li>
-    <li>use the base and top edges.</li>
-    <li>extrude using the <b>remove</b> operation.</li>
-  </ul>
+    <div>
+      <p>extend the back of your mouse by 10mm.</p>
+      <img src={tut_29} className='tutImg1'></img>
+    </div>
 
-  <p>5. on the front of the case:</p>
-  <div className='hor'>
-    <ul>
-      <li>create a new sketch using the front of the case as the plane.</li>
-      <li>use the edges of the case.</li>
-      <li>draw a rectangle.</li>
-      <li>extrude by <b>59.65</b>.</li>
-      <li>create a new sketch on the side.</li>
-      <li>draw what you would like to be the side profile of your mouse.</li>
-      <li>extrude using the <b>remove</b> operation.</li>
-    </ul>
-      <img className="tutImg1" src={step32}></img>
-  </div>
+    <div>
+      <p>start a new sketch on the horizontal face of your sweep (the back). draw a horizontal line. remove anything below the horizontal line. start a new sketch on the top plane. use the bottom of your current walls. i extruded by 9mm, but just make sure the walls are touching.</p>
+      <div className="hor">
+        <img src={tut_32} className='tutImg1'></img>
+        <img src={tut_41} className='tutImg1'></img>
+      </div>
+    </div>
 
-  <p>6. on the top face:</p>
-  <ul>
-    <li>create a new sketch using the top face.</li>
-    <li>use the sides of the wheels.</li>
-    <li>make a sketch like this. <b>i recommend using the mirror tool.</b></li>
-    <li>finish your sketch.</li>
-    <li>extrude using the <b>remove</b> operation.</li>
-    <li>create a new sketch on the inside.</li>
-    <li>make it look like this. make sure that the lines are parallel to the edges.</li>
-    <li>extrude using the <b>remove</b> operation <b>52.45</b>.</li>
-  </ul>
-  <img className="tutImg1" src={step34}></img>
-  <img className="tutImg1" src={step35}></img>
+    <div>
+      <p>2. clickers:</p>
+      <p> start a new sketch on the "right" plane. make it look however you want your clickers to look. </p><p><span className='italic'> ok now look! you can connect your clickers to the back by simply attaching them in this step or adding an extension to connect them to the back later on. i did the 2nd option (which was honestly unnecessary), but i recommend the 1st method. if you're doing the 1st method, skip steps with ** in front of them</span></p>
+      <div className="hor">
+        <img src={tut_26} className='tutImg1'></img>
+      </div>
+    </div>
 
-  <p>7. buttons:</p>
-  <div className='hor'>
-    <ul>
-      <li>create a new sketch.</li>
-      <li>use the edge of the button.</li>
-      <li>create a rectangle (ish shape) and make it <b>40 x 1.5</b>.</li>
-      <li>extrude by <b>18.2</b>.</li>
-      <li>finish your extrude.</li>
-      <li>create a new extrude using the same area with a depth of <b>18.2</b> and an offset of <b>42.3</b>.</li>
-    </ul>
-    <img className="tutImg1" src={step36}></img>
-    
-  </div>
 
-  <p>8.</p>
-  <div className='hor'>
-    <ul>
-      <li>fillet your edges.</li>
-      <li>your mouse should look like this!</li>
-    </ul>
-    <img className="tutImg1" src={step37}></img>
+    <div>
+      <p>open up your mouse assembly and insert the top of the case. right click and edit in context. in your clicker sketch, use the button. </p>
+      <p> make sure that your clicker is in contact with the button and has space to move down. </p>
+      <p>extrude using your clicker sketch. make sure that it doesn't touch the wheel. i extruded by 22mm with an offset of 4.5mm.</p>
+      <p> <span className='italic'>if your clicker doesn't touch the wheel mounts, skip the next 2 steps</span></p>
+      <p>on the other side of your clicker, use the wheel mount. create space around it so that the clicker will be able to move downwards. i removed 8mm in this shape, but just make sure that your clicker will not touch the wheel mount. </p>
+      <div className="hor">
+        <img src={tut_27} className='tutImg1'></img>
+      </div>
+    </div>
+
+    <div>
+      <p>start a new sketch on its inner face. again, using the wheel mount, create a sketch around it so that the clicker will be able to click. i used a circle in this case. i removed 8mm in this shape, but just make sure that your clicker will not touch the wheel mount.</p>
+      <div className="hor">
+        <img src={tut_28} className='tutImg1'></img>
+      </div>
+    </div>
+
+    <div>
+      <p><span className='italic'>unnecessary if you are a. okay with the gap between the two clickers or b. do not have the gap</span></p> 
+      <p>on the side of your right OR left clicker, draw a sketch where you want to extend your clicker (into the inner gap). make sure it is NOT touching the wheel. i extruded by 6.7mm.</p>
+      <div className="hor">
+        <img src={tut_30} className='tutImg1'></img>
+      </div>
+    </div>
+
+    <div>
+      <p>** on the backs of the clickers, use their outline and then draw a rectangle you want to extend into the back. this connects the clickers with the back. i extruded by 41.9mm, but just make sure they're connecting to the back.</p>
+      <div className="hor">
+        <img src={tut_31} className='tutImg1'></img>
+      </div>
+    </div>
+
+    <div>
+      <p>3. (optional) fillet your edges:</p><p>i did 2mm. depends on your design. this improves print quality.</p>
+      <div className="hor">
+      </div>
+    </div>
+
+    <div>
+      <p>4. screw holes: </p><p>start a new sketch on the top face. draw a rectangle in the back. make sure that it doesn't intersect the battery holder (check in the assembly). i extruded by 7mm. start a new sketch on its face. use its shape and draw a line down around the middle. make sure that it doesn't intersect with the battery holder. i extruded by 19mm.</p>
+      <div className="hor">
+        <img src={tut_33} className='tutImg1'></img>
+        <img src={tut_34} className='tutImg1'></img>
+      </div>
+    </div>
+
+    <div>
+      <p>start a new sketch on the bottom but leave it blank. go back to your assembly and edit in context. edit your sketch and use the inner screw hole. remove 8mm.</p>
+      <div className="hor">
+        <img src={tut_42} className='tutImg1'></img>
+      </div>
+    </div>
+
+    <div>
+      <p>yippeee!!! thanks so much for getting through the tut :D</p>
+      <p>before submitting,, look over your design for any possible issues (eg intersecting parts, parts not connected, impossible overhangs, etc). @idksarah on slack if you've got any questions!!</p>
+    </div>
   </div>
 </div>
 
-            </div>
+  
+</div>
 
-          </div>
-        </div>
       </div>
-    </div>
+
     </>
   )
 }

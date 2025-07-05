@@ -357,3 +357,11 @@ a {
     height: 15em;
   }
 }
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.italic {
+  font-style: italic;
+}
