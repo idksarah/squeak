@@ -47,7 +47,8 @@ import tut_40 from '../assets/tut_40.png';
 import tut_41 from '../assets/tut_41.png';
 import tut_42 from '../assets/tut_42.png';
 import tut_43 from '../assets/tut_43.png';
-
+import tut_44 from '../assets/tut_44.png';
+import tut_45 from '../assets/tut_45.png';
 
 
 function Design() {
@@ -159,7 +160,7 @@ function Design() {
     </div>
 
     <div>
-      <p>3. importing parts: start a new assembly. import the sensor, pcb, and wheel from <a href="https://github.com/idksarah/squeak/tree/main/onshape_imports" target="_blank" rel="noopener noreferrer">here</a>. insert them. </p>
+      <p>now we have to import parts. start a new assembly. import the sensor, pcb, and wheel from <a href="https://github.com/idksarah/squeak/tree/main/onshape_imports" target="_blank" rel="noopener noreferrer">here</a>. insert them. </p>
       <p>you may need to rotate the sensor, pcb, and wheel 180 degrees so that they align with the rest of the assembly. fasten the center of the bottom of the sensor to the center of the top of the vertical rectangle. fasten the center of the bottom of the pcb to the center of the circle on the center.</p>
       <p> yipppee!! now, right click on your base and edit in context.</p>
       <div className="hor wrap">
@@ -174,14 +175,14 @@ function Design() {
     <div>
       <p> measurements: </p>
       <p>22.259mm, 1.5mm, 60.462mm, 1.5mm., 2mm, R5.</p>
-      <p> extrude the outer areas by 1.5mm. extrude the walls by 3.4mm. extrude the corners by 4.6mm</p>
-      <p>fig. 1 is just the sketch you're making. fig. 2 also shows what your context should look like</p>
+      <p>fig. use the pcb and draw an L shape on the corners and front of your pcb. the farthest edge should be 1.5mm away from the pcb. the closest edge should be 0.5mm away from the pcb</p>
       <div className="hor">
         <img src={tut_6} className="tutImg"></img>
         <img src={tut_43} className="tutImg"></img>
       </div>
     </div>
-
+      <p> extrude the outer areas by 1.5mm. extrude the pcb walls by 6.6mm</p>
+        <img src={tut_44} className="tutImg"></img>
     <div>
       <p>4. battery holder: </p>
       <p>make this L shape. its placement doesn't really matter, but keep it close to your pcb (ie &lt; 0.5mm distance) since the wires are short. draw fig. 2 at the top and bottom of your L. i recommend using the mirror tool for this. (draw one side and then mirror it.) </p>
@@ -197,19 +198,23 @@ function Design() {
     </div>
 
     <div>
-      <p>view from the back side. start a new sketch using the edge of the battery holder as its face. extrude by 25mm with a 15mm offset.</p>
+      <p>view from the back side. start a new sketch using the edge of the battery holder as its face. </p>
     <div className="hor">
         <img src={tut_14} className="tutImg"></img>
       </div>
+        <p>extrude by 25mm with a 15mm offset.</p>
+        <img src={tut_45} className="tutImg"></img>
     </div>
 
     <div>
       <p>5. battery tab: </p>
       <p>start a new sketch in the empty space. make a small arc. extrude the rest by 2mm.</p>
-      <p> start a new sketch on the bottom of your new part. flip to the top of your mouse and use these sections. remove by 1mm</p>
       <div className="hor" style={{flexWrap: 'wrap'}}>
         <img src={tut_75} className="tutImg"></img>
         <img src={tut_15} className="tutImg"></img>
+      </div>
+      <p> start a new sketch on the top of your new part. flip to the top of your mouse and use these sections. remove by 1.2mm</p>
+      <div className="hor wrap">
         <img src={tut_38} className="tutImg"></img>
         <img src={tut_39} className="tutImg"></img>
       </div>
@@ -222,10 +227,10 @@ function Design() {
 
     <div>
       <p>6. walls: </p>
-      <p>align the left one with the edge of your battery holder. fillet the top by 1mm</p>
-      <p>measurements: 40mm, R3</p>
-      <div className="hor wrap">
+      <p>measurements: 40mm, R3</p>      
         <img src={tut_12} className="tutImg"/>
+      <p>fillet the top by 1mm</p>
+      <div className="hor wrap">
         <img src={tut_125} className="tutImg"></img>
       </div>
     </div>
@@ -270,7 +275,6 @@ function Design() {
 
     <div>
       <p>extend the back of your mouse by 10mm.</p>
-      <img src={tut_29} className='tutImg1'></img>
     </div>
 
     <div>
@@ -309,7 +313,7 @@ function Design() {
     </div>
 
     <div>
-      <p><span className='italic'>unnecessary if you are a. okay with the gap between the two clickers or b. do not have the gap</span></p> 
+      <p><span className='italic'>next step is unnecessary if you are a. okay with the gap between the two clickers or b. do not have the gap</span></p> 
       <p>on the side of your right OR left clicker, draw a sketch where you want to extend your clicker (into the inner gap). make sure it is NOT touching the wheel. i extruded by 6.7mm.</p>
       <div className="hor">
         <img src={tut_30} className='tutImg1'></img>
