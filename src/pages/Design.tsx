@@ -32,7 +32,7 @@ import tut_25 from '../assets/tut_25.png';
 import tut_26 from '../assets/tut_26.png';
 import tut_27 from '../assets/tut_27.png';
 import tut_28 from '../assets/tut_28.png';
-import tut_29 from '../assets/tut_29.png';
+// import tut_29 from '../assets/tut_29.png';
 import tut_30 from '../assets/tut_30.png';
 import tut_31 from '../assets/tut_31.png';
 import tut_32 from '../assets/tut_32.png';
