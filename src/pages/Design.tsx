@@ -149,8 +149,8 @@ function Design() {
     <div>
       <p>3. sensor and switch walls:</p>
       <p>measurements: </p>
-      <p>fig. 1: 1.359mm, 16mm, .75mm, .25mm, 12.1</p>
-      <p>fig. 2: 2.732mm, 12.1</p>
+      <p>fig. 1: 1.359mm, 16mm, .75mm, .25mm</p>
+      <p>fig. 2: 2.732mm, 12.5, 1.2, 1.359, 1, 16, .5</p>
       <p> extrude the edges by 2.8mm. extrude the inside of the horizontal rectangle by .75mm</p>
     <div className="hor wrap">
         <img src={tut_4} className='tutImg'></img>
