@@ -49,7 +49,13 @@ import tut_42 from '../assets/tut_42.png';
 import tut_43 from '../assets/tut_43.png';
 import tut_44 from '../assets/tut_44.png';
 import tut_45 from '../assets/tut_45.png';
-
+import tut_46 from '../assets/tut_46.png';
+import tut_47 from '../assets/tut_47.png';
+import tut_48 from '../assets/tut_48.png';
+import tut_49 from '../assets/tut_49.png';
+import tut_50 from '../assets/tut_50.png';
+import tut_51 from '../assets/tut_51.png';
+import tut_52 from '../assets/tut_52.png';
 
 function Design() {
     function removeHidden(event:any){
@@ -149,9 +155,9 @@ function Design() {
     <div>
       <p>3. sensor and switch walls:</p>
       <p>measurements: </p>
-      <p>fig. 1: 1.359mm, 16mm, .75mm, .25mm</p>
+      <p>fig. 1: 1.359mm, 16mm .25mm</p>
       <p>fig. 2: 2.732mm, 12.5, 1.2, 1.359, 1, 16, .5</p>
-      <p> extrude the edges by 2.8mm. extrude the inside of the horizontal rectangle by .75mm</p>
+      <p> extrude the edges by 2mm.</p>
     <div className="hor wrap">
         <img src={tut_4} className='tutImg'></img>
         <img src={tut_5} className='tutImg'></img>
@@ -161,27 +167,45 @@ function Design() {
 
     <div>
       <p>now we have to import parts. start a new assembly. import the sensor, pcb, and wheel from <a href="https://github.com/idksarah/squeak/tree/main/onshape_imports" target="_blank" rel="noopener noreferrer">here</a>. insert them. </p>
-      <p>you may need to rotate the sensor, pcb, and wheel 180 degrees so that they align with the rest of the assembly. fasten the center of the bottom of the sensor to the center of the top of the vertical rectangle. fasten the center of the bottom of the pcb to the center of the circle on the center.</p>
-      <p> yipppee!! now, right click on your base and edit in context.</p>
+      <p>you may need to rotate the sensor, pcb, and wheel 180 degrees so that they align with the rest of the assembly. fasten the center of the bottom of the sensor to the center of the top of the vertical rectangle. </p>
       <div className="hor wrap">
         <img src={tut_22} className="tutImg1"></img>
         <img src={tut_21} className="tutImg1"></img>
         <img src={tut_23} className="tutImg1"></img>
+      </div>
+    </div>
+    <div>
+      <p>fasten the center of the bottom of the pcb to the center of the circle on the center with a z-offset of 1.2mm.</p>
+      <div className= "hor wrap">
         <img src={tut_24} className="tutImg1"></img>
         <img src={tut_25} className="tutImg1"></img>
+        <img src={tut_46} className="tutImg1"></img>
+
       </div>
+      <p> yipppee!! now, right click on your base and hover over edit in context. select create new context.</p>
+      <img src={tut_52} className='tutImg'></img>
     </div>
 
     <div>
       <p> measurements: </p>
       <p>22.259mm, 1.5mm, 60.462mm, 1.5mm., 2mm, R5.</p>
       <p>fig. use the pcb and draw an L shape on the corners and front of your pcb. the farthest edge should be 1.5mm away from the pcb. the closest edge should be 0.5mm away from the pcb</p>
-      <div className="hor">
+      <div className="hor wrap">
         <img src={tut_6} className="tutImg"></img>
         <img src={tut_43} className="tutImg"></img>
       </div>
+      
+      <p>after drawing the bottom pcb wall, draw a second rectangle on top. </p>
+      <div className="hor wrap">
+        <img src={tut_48} className="tutImg1"></img>
+        {/* <img src={tut_49} className="tutImg1"></img> */}
+      </div>
+      <p>extrude the outer areas by 1.5mm</p>
+      <img src={tut_50} className="tutImg"></img>
+      <p>set your original sketch as visible.</p>
+      <img src={tut_51} className="tutImg"></img>
     </div>
-      <p> extrude the outer areas by 1.5mm. extrude the pcb walls by 6.6mm</p>
+      <p> extrude the pcb walls by 6.6mm. extrude the pcb support by 3.4mm</p>
         <img src={tut_44} className="tutImg"></img>
     <div>
       <p>4. battery holder: </p>

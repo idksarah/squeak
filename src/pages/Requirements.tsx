@@ -13,7 +13,7 @@ function Requirements() {
           <Yapathon topShit="2. be unique" bottomBitch="cannot be a direct copy of the tutorial case or bambu case. be creative!!"/>
           <Yapathon topShit='3. have your project on github' bottomBitch="create a repo and upload your project files at github.com"/>
           <Yapathon topShit='4. have a printer! (human or machine)' bottomBitch="you can either print your case or find someone on printing legion to print for you. you'll receive a $10 grant to pay for the shipping label"/>
-          <Yapathon topShit='5. be in high school' bottomBitch="^^"/>
+          <Yapathon topShit='5. be in middle school or high school' bottomBitch="^^"/>
         </div>
       </div>
     </>
