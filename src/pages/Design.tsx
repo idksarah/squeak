@@ -50,9 +50,7 @@ import tut_43 from '../assets/tut_43.png';
 import tut_44 from '../assets/tut_44.png';
 import tut_45 from '../assets/tut_45.png';
 import tut_46 from '../assets/tut_46.png';
-import tut_47 from '../assets/tut_47.png';
 import tut_48 from '../assets/tut_48.png';
-import tut_49 from '../assets/tut_49.png';
 import tut_50 from '../assets/tut_50.png';
 import tut_51 from '../assets/tut_51.png';
 import tut_52 from '../assets/tut_52.png';
@@ -209,7 +207,7 @@ function Design() {
         <img src={tut_44} className="tutImg"></img>
     <div>
       <p>4. battery holder: </p>
-      <p>make this L shape. its placement doesn't really matter, but keep it close to your pcb (ie &lt; 0.5mm distance) since the wires are short. draw fig. 2 at the top and bottom of your L. i recommend using the mirror tool for this. (draw one side and then mirror it.) </p>
+      <p>make this L shape. its placement doesn't really matter, but keep it close to your pcb (ie &lt; 2mm distance) since the wires are short. draw fig. 2 at the top and bottom of your L. i recommend using the mirror tool for this. (draw one side and then mirror it.) </p>
       <p>extrude the long parts by 3.15. extrude the c-shaped sections by 7mm.</p>
     <div className="hor wrap">
         <img src={tut_8} className="tutImg"></img>
