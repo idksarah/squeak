@@ -3,30 +3,30 @@ import Topbar from '../components/Topbar'
 
 
 function Design() {
-    function removeHidden(event:any){
-        const dot = event.currentTarget.querySelector(".dotHor");
-        dot?.classList.remove("hidden");
-    }
-    function addHidden(event:any){
-        const dot = event.currentTarget.querySelector(".dotHor");
-        dot?.classList.add("hidden");
-    }
-    function showP1() {
-      const part1 = document.querySelector('.part1');
-      const part2 = document.querySelector('.part2');
-      if (part1 && part2) {
-        part1.classList.remove('hidden');
-        part2.classList.add('hidden');
-      }
-    }
-    function showP2() {
-      const part1 = document.querySelector('.part1');
-      const part2 = document.querySelector('.part2');
-      if (part1 && part2) {
-        part2.classList.remove('hidden');
-        part1.classList.add('hidden');
-      }
-    }
+    // function removeHidden(event:any){
+    //     const dot = event.currentTarget.querySelector(".dotHor");
+    //     dot?.classList.remove("hidden");
+    // }
+    // function addHidden(event:any){
+    //     const dot = event.currentTarget.querySelector(".dotHor");
+    //     dot?.classList.add("hidden");
+    // }
+    // function showP1() {
+    //   const part1 = document.querySelector('.part1');
+    //   const part2 = document.querySelector('.part2');
+    //   if (part1 && part2) {
+    //     part1.classList.remove('hidden');
+    //     part2.classList.add('hidden');
+    //   }
+    // }
+    // function showP2() {
+    //   const part1 = document.querySelector('.part1');
+    //   const part2 = document.querySelector('.part2');
+    //   if (part1 && part2) {
+    //     part2.classList.remove('hidden');
+    //     part1.classList.add('hidden');
+    //   }
+    // }
 
   return (
     <>
