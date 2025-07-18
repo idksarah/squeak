@@ -30,7 +30,7 @@ function Home() {
           </div>
           <div className="column">
             <p className="h2">what's this?</p>
-            <p>squeak is program running from 7/4/2025 to 7/13/2025 where you can design your own mouse case and receive the physical case and parts (provided by bambu's mouse kit and hack club's printing legion!)</p>
+            <p>squeak is program running where you can design your own mouse case and receive the physical case and parts (provided by bambu's mouse kit and hack club's printing legion!)</p>
           </div>
         </div>
         <div className="column">
