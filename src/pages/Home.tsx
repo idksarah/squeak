@@ -1,4 +1,6 @@
-import assembly from './../assets/assembly.png'
+import assembly from './../assets/assemblyV2.png'
+// import flag from "../assets/flag-orpheus-left.png"
+
 import { useNavigate } from 'react-router-dom'
 import './../App.css'
 import Topbar from '../components/Topbar'
@@ -19,18 +21,25 @@ function Home() {
 
   return (
     <div id="home">
+      {/* <div>
+        <a className="logo" href="https://hackclub.com"></a>
+        <img src={flag} className="flag"></img>
+      </div> */}
     <div className="backdrop">
       <Topbar></Topbar>
       <div className="main">
         <img src={assembly} id="assembly"></img>
         <div>
           <div className="column">
-            <p className="h1">squeak!</p>
+            <div className="title">
+              <p className="h1">squeak!</p>
+              <p className="accent">v2</p>
+            </div>
             <p className="i subheading">a hack club you ship we ship (ysws)</p>
           </div>
           <div className="column">
             <p className="h2">what's this?</p>
-            <p>squeak is a hack club program running from where you can design your own mouse case and receive the physical case and parts (provided by bambu's mouse kit and hack club's printing legion!)</p>
+            <p>squeak is a hack club program running where you can design your own mouse case and receive the physical case and parts (provided by bambu's mouse kit and hack club's printing legion!)</p>
           </div>
         </div>
         <div className="column">

@@ -12,9 +12,9 @@ function Topbar() {
     function goRequirements(){
         navigate("/requirements");
     }
-    function goFaq(){
-        navigate("/faq");
-    }
+    // function goFaq(){
+    //     navigate("/faq");
+    // }
     function removeHidden(event:any){
         const dot = event.currentTarget.querySelector(".dot");
         dot?.classList.remove("hidden");
@@ -37,8 +37,12 @@ function Topbar() {
                 <p className="pointer" onClick={goRequirements}>requirements</p>
                 <span className="dot hidden"></span>
             </div>
-            <div className="topbarElement" onMouseEnter={removeHidden} onMouseLeave={addHidden}>
+            {/* <div className="topbarElement" onMouseEnter={removeHidden} onMouseLeave={addHidden}>
                 <p className="pointer" onClick={goFaq}>faq</p>
+                <span className="dot hidden"></span>
+            </div> */}
+            <div className="topbarElement" onMouseEnter={removeHidden} onMouseLeave={addHidden}>
+                <a href="https://forms.hackclub.com/t/b7KyFutosous">run a club meeting</a>
                 <span className="dot hidden"></span>
             </div>
             <div className="topbarElement" onMouseEnter={removeHidden} onMouseLeave={addHidden}>
