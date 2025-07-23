@@ -365,3 +365,22 @@ a {
 .italic {
   font-style: italic;
 }
+
+.title {
+  display: flex;
+  align-items: baseline;
+  gap: .5em;
+}
+
+.accent {
+  color: #6C9A56;
+  font-weight: 800;
+}
+
+.flag {
+  position: absolute;
+  left: 0;
+   top: 0;
+   transform: rotate(35deg);
+   height: 5em;
+}
