@@ -39,6 +39,8 @@ import tut_42 from './../assets/shell/tut_42.png';
 import tut_43 from './../assets/shell/tut_43.png';
 import tut_44 from './../assets/shell/tut_44.png';
 import tut_45 from './../assets/shell/tut_45.png';
+// import tut_46 from './../assets/shell/tut_46.png';
+import tut_47 from './../assets/shell/tut_47.png';
 
 function Design() {
     // function removeHidden(event:any){
@@ -172,8 +174,10 @@ function Design() {
             <img src={tut_18} alt="tut_18" className="tutImg1"/>
             <p>finish your sketch. click on the new face and extrude using the add mode symmetrically by ~44mm. ensure that your wedges cover the buttons.</p>
             <img src={tut_19} alt="tut_19" className="tutImg"/>
-            <p>click on the same face and remove (extrude using the remove mode) symemetrically by ~ 26mm. ensure that your wedges don't interfere with the wheel and wheel mount</p>
+            <p>click on the same face and remove (extrude using the remove mode) symemetrically by ~ 26mm.</p>
             <img src={tut_20} alt="tut_20" className="tutImg"/>
+            <p> ensure that your wedges are within this yellow area</p>
+            <img src={tut_47} alt="tut_47" className="tutImg"/>
             <p>if you flip to the bottom of your mouse, it should look like this now</p>
             <img src={tut_22} alt="tut_22" className="tutImg"/>
             <p>
