@@ -41,6 +41,11 @@ import tut_44 from './../assets/shell/tut_44.png';
 import tut_45 from './../assets/shell/tut_45.png';
 // import tut_46 from './../assets/shell/tut_46.png';
 import tut_47 from './../assets/shell/tut_47.png';
+import tut_48 from './../assets/shell/tut_48.png';
+import tut_49 from './../assets/shell/tut_49.png';
+import tut_50 from './../assets/shell/tut_50.png';
+import tut_51 from './../assets/shell/tut_51.png';
+import tut_52 from './../assets/shell/tut_52.png';
 
 function Design() {
     // function removeHidden(event:any){
@@ -194,6 +199,16 @@ function Design() {
             <p>fillet these edges by 0.5mm</p>
             <img src={tut_28} alt="tut_28" className="tutImg"/>
           </div>  
+              <p>go to the side view and set your view mode to transparent.</p>
+            <img src={tut_48} className="tutImg"/>
+            <p>start a new sketch supporting the top of the base like this.</p>
+            <img src={tut_49} className="tutImg"/>
+            <p>extrude your new section by ~40mm. enough to cover the screw holes</p>
+            <img src={tut_50} className="tutImg"/>
+            <p>finish your extrude. go to the bottom of your mouse and start a new sketch on the face of that block and use the screw holes.</p>
+            <img src={tut_51} className="tutImg"/>
+            <p>remove by 2mm</p>
+            <img src={tut_52} className="tutImg"/>
           <p>last step is to add a space where we can grab our base after inserting it into our case. </p>
           <p>go to the bottom of your mouse</p>
             <img src={tut_42} alt="tut_42" className="tutImg"/>
