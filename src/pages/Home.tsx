@@ -39,7 +39,7 @@ function Home() {
           </div>
           <div className="column">
             <p className="h2">what's this?</p>
-            <p>squeak is a hack club program running from 11/14 to 11/31 11:59 pm est where you can design your own mouse case and receive the physical case and parts (provided by bambu's mouse kit and hack club's printing legion!)</p>
+            <p>squeak is a hack club program running from 11/19 to 11/31 11:59 pm est where you can design your own mouse case and receive the physical case and parts (provided by bambu's mouse kit and hack club's printing legion!)</p>
           </div>
         </div>
         <div className="column">
