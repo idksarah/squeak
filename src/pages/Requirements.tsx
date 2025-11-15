@@ -9,7 +9,7 @@ function Requirements() {
         <Topbar/>
         <div className="requirementsContent">
           <p className="h1">requirements</p>
-          <Yapathon topShit="1. spend at least 3 hours designing your mouse" bottomBitch={`use the <a href="https://chromewebstore.google.com/detail/onshape-wakatime/kieglbolocchhhcblnhaiodbpgkjcecg">onshape wakatime extension</a> to track your hours. you can check your hours at <a href="waka.hackclub.com/summary">hackatime v1</a>`}/>
+          <Yapathon topShit="1. spend at least 4 hours designing your mouse" bottomBitch={`use the <a href="https://chromewebstore.google.com/detail/onshape-wakatime/kieglbolocchhhcblnhaiodbpgkjcecg">onshape wakatime extension</a> to track your hours. you can check your hours at <a href="waka.hackclub.com/summary">hackatime v1</a>`}/>
           <Yapathon topShit='2. have your project on github' 
           bottomBitch={`create a repo and upload your project file at <a href="https://github.com">github.com</a>`}/>
           <Yapathon topShit='3. have a printer! (human or machine)' bottomBitch={
@@ -24,4 +24,3 @@ function Requirements() {
 }
 
 export default Requirements
-
