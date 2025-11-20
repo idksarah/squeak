@@ -1,5 +1,5 @@
 html {
-  cursor: url("./assets/cursor.png"), auto;
+  cursor: url("./assets/cursor.png") 0 -20, auto;
 }
 
 .backdrop {
@@ -94,14 +94,14 @@ p {
 
 .pointer {
   cursor: pointer;
-  cursor: url("./assets/cursor1.png"), auto;
+  cursor: url("./assets/cursor1.png") 0 -20, auto;
 }
 
 .link {
   cursor: pointer;
   color:#6C9A56;
   text-decoration: none;
-  cursor: url("./assets/cursor1.png"), auto;
+  cursor: url("./assets/cursor1.png") 0 -20, auto;
 }
 
 .footer {
@@ -171,12 +171,12 @@ a, .green {
 
 .dore {
   height: 4em;
-  cursor: url("./assets/cursor1.png"), auto;
+  cursor: url("./assets/cursor1.png") 0 -20, auto;
 }
 
 a {
   text-decoration: none;
-  cursor: url("./assets/cursor1.png"), auto;
+  cursor: url("./assets/cursor1.png") 0 -20, auto;
 }
 
 .iyapathon .h2 {
